@@ -21,7 +21,7 @@ Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *   ExtensionMessageOptions
 *   {
 *    extension: "myExtension" // binaryName
-*    data: {} //json Message
+*    data: "" // Message string
 *   }
 *
 *  ./extensions/bin/myExtension-win.exe
