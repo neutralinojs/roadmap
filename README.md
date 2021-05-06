@@ -1,5 +1,5 @@
 # drafts
-Design documentation of Neutralinojs
+Feature proposals of Neutralinojs
 
 # Roadmap/Plan
 
@@ -14,3 +14,14 @@ Design documentation of Neutralinojs
   * GUI manipulation methods. Eg: `async app.maximize()`
   * Tray menu API `async os.setTrayMenu()`. 
   * `Neutralino.events`. Centralized namesapce for native events. Eg: `Neutralino.events.onWindowMove`
+- Neutralino API extensions - Developers can make their own backend code with Go. STDIN/STDOUT is used as the communication channel.
+```js
+Neutralino.app.sendExtMessage(jsonPayload)
+/*
+*   jsonPayload
+*   {
+*    extension: "myExtension" // binaryName
+*    data: {} //json Message
+*   }
+*/
+```
