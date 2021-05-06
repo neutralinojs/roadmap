@@ -16,9 +16,9 @@ Feature proposals of Neutralinojs
   * `Neutralino.events`. Centralized namesapce for native events. Eg: `Neutralino.events.onWindowMove`
 - Neutralino API extensions - Developers can make their own backend code with Go. STDIN/STDOUT is used as the communication channel.
 ```js
-Neutralino.app.sendExtMessage(jsonPayload)
+Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 /*
-*   jsonPayload
+*   ExtensionMessageOptions
 *   {
 *    extension: "myExtension" // binaryName
 *    data: {} //json Message
