@@ -24,7 +24,7 @@ Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *    data: {} //json Message
 *   }
 *
-*  ./extensions/bin/myExtension-win
+*  ./extensions/bin/myExtension-win.exe
 *  ./extensions/bin/myExtension-linux
 *  ./extensions/bin/myExtension-mac
 *
