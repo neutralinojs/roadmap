@@ -23,5 +23,15 @@ Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *    extension: "myExtension" // binaryName
 *    data: {} //json Message
 *   }
+*
+*  ./extensions/bin/myExtension-win
+*  ./extensions/bin/myExtension-linux
+*  ./extensions/bin/myExtension-mac
+*
+*  ./extensions/src/myExtension.go
+*   
+*  "neu extensions --build" - Make binaries for all extensions
+*  "neu extensions" - Lists existing extensions
+*
 */
 ```
