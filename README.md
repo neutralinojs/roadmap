@@ -32,6 +32,7 @@ Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *   
 *  "neu extensions --build" - Make binaries for all extensions
 *  "neu extensions" - Lists existing extensions
+*  CLI plugin for neu CLI base
 *
 */
 ```
