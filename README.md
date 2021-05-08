@@ -14,9 +14,9 @@ Feature proposals of Neutralinojs
   * GUI manipulation methods. Eg: `async app.maximize()`
   * Tray menu API `async os.setTrayMenu()`. 
   * `Neutralino.events`. Centralized namesapce for native events. Eg: `Neutralino.events.onWindowMove`
-- Neutralino API extensions - Developers can make their own backend code with Go. STDIN/STDOUT is used as the communication channel.
+- Neutralino API extensions - Developers can make their own backend code with any programming language (C++, Go, and Rust are recommended). STDIN/STDOUT is used as the communication channel.
 ```js
-Neutralino.app.sendExtMessage(ExtensionMessageOptions)
+await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 /*
 *   ExtensionMessageOptions
 *   {
@@ -28,7 +28,7 @@ Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *  ./extensions/bin/myExtension-linux
 *  ./extensions/bin/myExtension-mac
 *
-*  ./extensions/src/myExtension.go
+*  ./extensions/src/myExtension.cpp or ./extensions/src/myExtension.go
 *   
 *  "neu extensions --build" - Make binaries for all extensions
 *  "neu extensions" - Lists existing extensions
