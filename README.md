@@ -1,4 +1,4 @@
-# drafts
+# Proposals
 Feature proposals of Neutralinojs
 
 # Roadmap/Plan
@@ -36,3 +36,4 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *
 */
 ```
+- Upgrade logging library **(In progress)**.
