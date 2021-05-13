@@ -36,4 +36,4 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 *
 */
 ```
-- Upgrade logging library **(In progress)**.
+- Upgrade logging library **(Done)**.
