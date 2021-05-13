@@ -11,7 +11,7 @@ Feature proposals of Neutralinojs
 - `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Added)**
 - Adding new methods to the native API.
   * `async filesystem.readBinaryFile` and `async filesystem.writeBinaryFile`
-  * GUI manipulation methods. Eg: `async app.maximize()`
+  * GUI manipulation methods via `setWindowOptions({... window mode props ... })`.
   * Tray menu API `async os.setTrayMenu()`. 
   * `Neutralino.events`. Centralized namesapce for native events. Eg: `Neutralino.events.onWindowMove`
 - Neutralino API extensions - Developers can make their own backend code with any programming language (C++, Go, and Rust are recommended). STDIN/STDOUT is used as the communication channel.
