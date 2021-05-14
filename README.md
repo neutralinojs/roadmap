@@ -9,6 +9,7 @@ Feature proposals of Neutralinojs
   * Transparency level setting `opacity: number`.
   * `hidden: boolean` - A nice way to write background apps. **(Added)**
 - `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Added)**
+- Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.
 - Adding new methods to the native API.
   * `async filesystem.readBinaryFile` and `async filesystem.writeBinaryFile`
   * GUI manipulation methods via `setWindowOptions({... window mode props ... })`.
