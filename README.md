@@ -3,7 +3,7 @@ Feature proposals of Neutralinojs
 
 # Roadmap/Plan
 
-- Refactoring macOS version for v2 using core-shared APIs. **(Blocker)**
+- Refactoring macOS version for v2 using core-shared APIs.
 - Doing improvements to the window customization (via `neutralino.config.json`).
   * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, `resizable`, and `maximizable`.
   * Transparency level setting `opacity: number`.
