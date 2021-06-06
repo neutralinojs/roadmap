@@ -8,7 +8,7 @@ Feature proposals of Neutralinojs
   * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, `resizable`, and `maximizable`.
   * Transparency level setting `opacity: number`.
   * `hidden: boolean` - A nice way to write background apps. **(Done)**
-- `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Added)**
+- `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Done)**
 - Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.  **(Done)**
 - Adding new methods to the native API.
   * `async filesystem.readBinaryFile` and `async filesystem.writeBinaryFile`
