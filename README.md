@@ -3,13 +3,13 @@ Feature proposals of Neutralinojs
 
 # Roadmap/Plan
 
-- Refactoring macOS version for v2 using core-shared APIs.
+- Refactoring macOS version for v2 using core-shared APIs.  **(Done)**.
 - Doing improvements to the window customization (via `neutralino.config.json`).
   * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, `resizable`, and `maximizable`.
   * Transparency level setting `opacity: number`.
-  * `hidden: boolean` - A nice way to write background apps. **(Added)**
+  * `hidden: boolean` - A nice way to write background apps. **(Done)**
 - `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Added)**
-- Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.
+- Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.  **(Done)**
 - Adding new methods to the native API.
   * `async filesystem.readBinaryFile` and `async filesystem.writeBinaryFile`
   * GUI manipulation methods. Eg: `window.setTitle(string title)` etc.
