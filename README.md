@@ -5,7 +5,7 @@ Feature proposals of Neutralinojs
 
 - Refactoring macOS version for v2 using core-shared APIs.  **(Done)**.
 - Doing improvements to the window customization (via `neutralino.config.json`).
-  * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, `resizable`, and `maximizable`.
+  * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, and `resizable` **(Done)**.
   * Transparency level setting `opacity: number`.
   * `hidden: boolean` - A nice way to write background apps. **(Done)**
 - `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Done)**
