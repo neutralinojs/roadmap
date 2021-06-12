@@ -1,7 +1,7 @@
 # Proposals
 Feature proposals of Neutralinojs
 
-# Roadmap/Plan
+# Roadmap/Plan 2021
 
 - Refactoring macOS version for v2 using core-shared APIs.  **(Done)**.
 - Doing improvements to the window customization (via `neutralino.config.json`).
