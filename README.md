@@ -12,9 +12,9 @@ Feature proposals of Neutralinojs
 - Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.  **(Done)**
 - Adding new methods to the native API.
   * `async filesystem.readBinaryFile` and `async filesystem.writeBinaryFile`
-  * GUI manipulation methods. Eg: `window.setTitle(string title)` etc.
-  * Tray menu API `async os.setTrayMenu()`. 
-  * `Neutralino.events`. Centralized namesapce for native events. Eg: `Neutralino.events.onWindowMove`
+  * GUI manipulation methods. Eg: `window.setTitle(string title)` etc. **(Add more..)**
+  * Tray menu API `async os.setTrayMenu()`. **(Done)**
+  * `Neutralino.events`. Centralized namesapce for native events. **(Done)**
 - Neutralino API extensions - Developers can make their own backend code with any programming language (C++, Go, and Rust are recommended). STDIN/STDOUT is used as the communication channel.
 ```js
 await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
