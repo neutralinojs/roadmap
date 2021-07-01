@@ -11,7 +11,7 @@ Feature proposals of Neutralinojs
 - `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Done)**
 - Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.  **(Done)**
 - Adding new methods to the native API.
-  * `async filesystem.readBinaryFile` and `async filesystem.writeBinaryFile`
+  * `async filesystem.readBinaryFile`, `async filesystem.writeBinaryFile`, `async filesystem.getStats` and `async filesystem.copyFile`
   * GUI manipulation methods. Eg: `window.setTitle(string title)` etc. **(Add more..)**
   * Tray menu API `async os.setTrayMenu()`. **(Done)**
   * `Neutralino.events`. Centralized namesapce for native events. **(Done)**
