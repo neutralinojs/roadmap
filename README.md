@@ -38,3 +38,17 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 */
 ```
 - Upgrade logging library **(Done)**.
+
+## Specs
+
+### window
+
+- `window.minimize()`
+- `window.unMinimize()`
+- `window.maximize()`
+- `window.unMaximize()`
+- `window.setFullScreen(bool mode)`
+- `window.isMinimized()`
+- `window.isMaximized()`
+- `window.isFullScreen()`
+
