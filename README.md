@@ -52,4 +52,5 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.show()`
 - `window.hide()`
 - `window.isVisible()`
+- `window.focus()`
 
