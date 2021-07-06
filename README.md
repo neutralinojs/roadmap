@@ -51,5 +51,5 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.isFullScreen()`
 - `window.show()`
 - `window.hide()`
-- `window.isHidden()`
+- `window.isVisible()`
 
