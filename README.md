@@ -49,4 +49,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.setFullScreen(bool mode)`
 - `window.isMaximized()` - **(Done)**
 - `window.isFullScreen()`
+- `window.show()`
+- `window.hide()`
+- `window.isHidden()`
 
