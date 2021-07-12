@@ -54,3 +54,11 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.isVisible()`
 - `window.focus()`
 
+### filesystem
+
+- `filesystem.readBinaryFile`
+- `filesystem.writeBinaryFile`
+- `filesystem.getStats`
+- `filesystem.copyFile`
+- `filesystem.moveFile`
+
