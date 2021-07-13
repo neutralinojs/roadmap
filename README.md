@@ -1,5 +1,5 @@
 # Proposals
-Feature proposals of Neutralinojs
+The roadmap of Neutralinojs
 
 # Roadmap/Plan 2021
 
@@ -62,4 +62,8 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `filesystem.getStats`
 - `filesystem.copyFile`
 - `filesystem.moveFile`
+
+# Roadmap/Plan 2022
+
+
 
