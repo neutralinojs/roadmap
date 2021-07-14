@@ -54,7 +54,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.hide()`
 - `window.isVisible()`
 - `window.focus()`
-- `window.setIcon()`
+- `window.setIcon(string icon)`
 
 ### filesystem
 
