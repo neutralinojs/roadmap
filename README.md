@@ -54,7 +54,6 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.hide()`
 - `window.isVisible()`
 - `window.focus()`
-- `window.blur()`
 
 ### filesystem
 
