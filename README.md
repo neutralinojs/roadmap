@@ -46,15 +46,15 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.minimize()` - **(Done)**
 - `window.maximize()` - **(Done)**
 - `window.unmaximize()` - **(Done)**
-- `window.setFullScreen()`
-- `window.exitFullScreen()`
+- `window.setFullScreen()` - **(Done)**
+- `window.exitFullScreen()` - **(Done)**
 - `window.isMaximized()` - **(Done)**
-- `window.isFullScreen()`
-- `window.show()`
-- `window.hide()`
-- `window.isVisible()`
-- `window.focus()`
-- `window.setIcon(string icon)`
+- `window.isFullScreen()` - **(Done)**
+- `window.show()` - **(Done)**
+- `window.hide()` - **(Done)**
+- `window.isVisible()` - **(Done)**
+- `window.focus()` - **(Done)**
+- `window.setIcon(string icon)` - **(Done)**
 
 ### filesystem
 
