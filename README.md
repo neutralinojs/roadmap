@@ -56,14 +56,15 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.focus()` - **(Done)**
 - `window.setIcon(string icon)` - **(Done)**
 - `window.move(int x, int y)` - **(Done)**
+- `window.setDraggableRegion(string domElementId)`
 
 ### filesystem
 
-- `filesystem.readBinaryFile`
-- `filesystem.writeBinaryFile`
-- `filesystem.getStats`
-- `filesystem.copyFile`
-- `filesystem.moveFile`
+- `filesystem.readBinaryFile()`
+- `filesystem.writeBinaryFile()`
+- `filesystem.getStats()`
+- `filesystem.copyFile()`
+- `filesystem.moveFile()`
 
 # Roadmap/Plan 2022
 
