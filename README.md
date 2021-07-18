@@ -69,6 +69,6 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 
 # Roadmap 2022
 
-- Depends on the community's future requests and ideas. We'll post a blog post in December 2021 about plans.
+- Depends on the community's feature requests and ideas. We'll post a blog post in December 2021 about plans.
 
 
