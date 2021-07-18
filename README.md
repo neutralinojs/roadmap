@@ -1,7 +1,7 @@
 # Proposals
 The roadmap of Neutralinojs
 
-# Roadmap/Plan 2021
+# Roadmap 2021
 
 - Refactoring macOS version for v2 using core-shared APIs.  **(Done)**.
 - Doing improvements to the window customization (via `neutralino.config.json`).
@@ -67,7 +67,8 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `filesystem.copyFile()`
 - `filesystem.moveFile()`
 
-# Roadmap/Plan 2022
+# Roadmap 2022
 
+- Depends on the community's future requests and ideas. We'll post a blog post in December 2021 about plans.
 
 
