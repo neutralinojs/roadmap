@@ -67,6 +67,11 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `filesystem.copyFile()`
 - `filesystem.moveFile()`
 
+### events
+
+- `events.onWindowClose`
+- `events.onWindowBlur`
+
 # Roadmap 2022
 
 - Depends on the community's feature requests and ideas. We'll post a blog post in December 2021 about plans.
