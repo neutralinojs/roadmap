@@ -38,7 +38,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 */
 ```
 - Upgrade logging library **(Done)**.
-- Implement opposite of `nativeBlockList` as `nativeAllowList`.
+- Implement opposite of `nativeBlockList` as `nativeAllowList` **(Done)**.
 
 ## Specs
 
