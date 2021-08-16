@@ -4,6 +4,7 @@ The roadmap of Neutralinojs
 # Roadmap 2021
 
 - Refactoring macOS version for v2 using core-shared APIs.  **(Done)**.
+- Set exit code for `app.exit()` from JavaScript API. **(Done)**
 - Doing improvements to the window customization (via `neutralino.config.json`).
   * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, and `resizable` **(Done)**.
   * Transparency level setting `opacity: number`.
@@ -58,6 +59,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.setIcon(string icon)` - **(Done)**
 - `window.move(int x, int y)` - **(Done)**
 - `window.setDraggableRegion(string domElementId)` -  **(Done)**
+- `window.setSize(options)` - **(Done)**
 
 ### filesystem
 
@@ -69,8 +71,13 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 
 ### events
 
-- `events.onWindowClose`
+- `events.onWindowClose` - **(Done)**
 - `events.onWindowBlur`
+
+### app
+
+- `app.killProcess(options)` - **(Done)**
+- `app.restartProcess(options)`
 
 # Roadmap 2022
 
