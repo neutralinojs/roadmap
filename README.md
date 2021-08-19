@@ -1,4 +1,3 @@
-# Proposals
 The roadmap of Neutralinojs
 
 # Roadmap 2021
