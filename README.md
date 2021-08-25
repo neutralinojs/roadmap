@@ -65,8 +65,8 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `filesystem.readBinaryFile()` -  **(Done)**
 - `filesystem.writeBinaryFile()` -  **(Done)**
 - `filesystem.getStats()`
-- `filesystem.copyFile()`
-- `filesystem.moveFile()`
+- `filesystem.copyFile()` - **(Done)**
+- `filesystem.moveFile()` - **(Done)**
 
 ### events
 
