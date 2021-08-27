@@ -64,7 +64,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 
 - `filesystem.readBinaryFile()` -  **(Done)**
 - `filesystem.writeBinaryFile()` -  **(Done)**
-- `filesystem.getStats()`
+- `filesystem.getStats()` - **(Done)**
 - `filesystem.copyFile()` - **(Done)**
 - `filesystem.moveFile()` - **(Done)**
 
@@ -75,7 +75,8 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 
 ### app
 
-- `app.killProcess(options)` - **(Done)**
+- `app.killProcess()` - **(Done)**
+- `app.exit(exitCode)` - **(Done)**
 - `app.restartProcess(options)`
 
 # Roadmap 2022
