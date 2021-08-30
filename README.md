@@ -71,7 +71,6 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 ### events
 
 - `events.onWindowClose` - **(Done)**
-- `events.onWindowBlur`
 
 ### app
 
