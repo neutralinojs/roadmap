@@ -59,6 +59,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `window.move(int x, int y)` - **(Done)**
 - `window.setDraggableRegion(string domElementId)` -  **(Done)**
 - `window.setSize(options)` - **(Done)**
+- `window.create(url, options)`
 
 ### filesystem
 
