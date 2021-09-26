@@ -85,6 +85,9 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 
 - `NE_FS_DIRCRER` - Unable to create directory.
+- `NE_FS_RMDIRER` - Unable to remove directory.
+- `NE_FS_FILRDER` - File read error.
+- `NE_FS_FILWRER` - File write error.
 
 # Roadmap 2022
 
