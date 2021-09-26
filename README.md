@@ -88,6 +88,10 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_FS_RMDIRER` - Unable to remove directory.
 - `NE_FS_FILRDER` - File read error.
 - `NE_FS_FILWRER` - File write error.
+- `NE_FS_FILRMER` - File remove error.
+- `NE_FS_NOPATHE` - No file or directory.
+- `NE_FS_COPYFER` - File copy error.
+- `NE_FS_MOVEFER` - File move error.
 
 # Roadmap 2022
 
