@@ -41,7 +41,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - Implement opposite of `nativeBlockList` as `nativeAllowList` **(Done)**.
 - Add a new setting (also command line flag) to enable/disable log file/logging.
 
-## Specs
+## Specs: API
 
 ### window
 
@@ -79,6 +79,12 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `app.killProcess()` - **(Done)**
 - `app.exit(exitCode)` - **(Done)**
 - `app.restartProcess(options)`
+
+## Specs: Error codes
+
+Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
+
+- `NE_FS_DIRCRER` - Unable to create directory.
 
 # Roadmap 2022
 
