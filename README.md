@@ -92,6 +92,8 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_FS_NOPATHE` - No file or directory.
 - `NE_FS_COPYFER` - File copy error.
 - `NE_FS_MOVEFER` - File move error.
+- `NE_OS_ENVNOEX` - The environment variable is not defined.
+- `NE_OS_IVMSGBT` - Invalid message box type.
 
 # Roadmap 2022
 
