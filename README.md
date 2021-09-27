@@ -102,6 +102,7 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_RT_NATRTER` - Native method runtime error.
 - `NE_RT_NATNTIM` - Native method is not implemented.
 - `NE_RT_FILNOTS` - File extension is not supported.
+- `NE_CL_NSEROFF` - Neutralino server is not reachable.
 
 # Roadmap 2022
 
