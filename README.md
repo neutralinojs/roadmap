@@ -96,6 +96,12 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_OS_INVMSGT` - Invalid message box type.
 - `NE_ST_INVSTKY` - Invalid storage key.
 - `NE_ST_STKEYWE` - Storage write error.
+- `NE_RT_INVTOKN` - Invalid auth token.
+- `NE_RT_NATPRME` - No permission to execute the provided native method.
+- `NE_RT_APIPRME` - No permission to use the native API.
+- `NE_RT_NATRTER` - Native method runtime error.
+- `NE_RT_NATNTIM` - Native method is not implemented.
+- `NE_RT_FILNOTS` - File extension is not supported.
 
 # Roadmap 2022
 
