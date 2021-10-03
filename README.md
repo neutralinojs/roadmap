@@ -79,7 +79,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 
 - `app.killProcess()` - **(Done)**
 - `app.exit(exitCode)` - **(Done)**
-- `app.restartProcess(options)`
+- `app.restartProcess(options)` - **(Done)**
 
 ## Specs: Error codes (Done)
 
