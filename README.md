@@ -41,6 +41,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - Implement opposite of `nativeBlockList` as `nativeAllowList` **(Done)**.
 - Add a new setting (also command line flag) to enable/disable log file/logging.
 - Screen details API.
+- Add a way to inject the client to window mode. Then, developers can use native API with remote URLs. Add new setting to config: `window.injectClientLib = true | false (Default: false)`.
 
 ## Specs: API
 
