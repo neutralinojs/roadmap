@@ -81,6 +81,10 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 - `app.exit(exitCode)` - **(Done)**
 - `app.restartProcess(options)` - **(Done)**
 
+### os
+
+- `os.getPath(key)`
+
 ## Specs: Error codes (Done)
 
 Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
