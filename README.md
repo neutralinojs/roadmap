@@ -83,7 +83,7 @@ await Neutralino.app.sendExtMessage(ExtensionMessageOptions)
 
 ### os
 
-- `os.getPath(key)`
+- `os.getPath(name)`
 
 ## Specs: Error codes (Done)
 
