@@ -98,7 +98,7 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_FS_COPYFER` - File copy error.
 - `NE_FS_MOVEFER` - File move error.
 - `NE_OS_ENVNOEX` - The environment variable is not defined.
-- `NE_OS_INVMSGT` - Invalid message box type.
+- `NE_OS_INVMSGA` - Invalid message box arguments.
 - `NE_OS_INVKNPT` - Invalid platform path name.
 - `NE_ST_INVSTKY` - Invalid storage key.
 - `NE_ST_STKEYWE` - Storage write error.
