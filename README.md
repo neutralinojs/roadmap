@@ -26,6 +26,7 @@ await Neutralino.extensions.sendMessage(string extensionId, string message);
 - Upgrade logging library **(Done)**.
 - Implement opposite of `nativeBlockList` as `nativeAllowList` **(Done)**.
 - Add a new setting (also command line flag) to enable/disable log file/logging. **(Done)**
+- Performance improvements and optimizations.
 
 
 ## Specs: API
