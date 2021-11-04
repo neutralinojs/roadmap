@@ -16,13 +16,6 @@ The roadmap of Neutralinojs
   * Tray menu API `async os.setTrayMenu()`. **(Done)**
   * `Neutralino.events`. Centralized namesapce for native events. **(Done)**
 - Neutralino API extensions - Developers can make their own backend code with any programming language. STDIN/STDOUT is used as the communication channel. This feature allows devs to use Nodejs too.
-```js
-await Neutralino.extensions.sendMessage(string extensionId, string message);
-
-// Client-based implementation via os.execCommand()
-// Calls extension with message
-// Extension can return immediate response or dispatch async events later.
-```
 - Upgrade logging library **(Done)**.
 - Implement opposite of `nativeBlockList` as `nativeAllowList` **(Done)**.
 - Add a new setting (also command line flag) to enable/disable log file/logging. **(Done)**
@@ -95,6 +88,39 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_RT_NATRTER` - Native method runtime error.
 - `NE_RT_NATNTIM` - Native method is not implemented.
 - `NE_CL_NSEROFF` - Neutralino server is not reachable.
+
+## Specs: API extensions
+
+- Extension to Neutralinojs process communication: WebSocket
+- JavaScript API to invoke extension:
+
+```js
+await Neutralino.extensions.sendMessage(string extensionId, string message);
+
+// Client-based implementation via os.execCommand()
+// Calls extension with message
+// Extension can return immediate response or dispatch async events later.
+```
+- Which component initates extensions: Server process via C++ (Alternative way: via client).
+- Config extensions:
+
+```
+"extensions": [
+ {
+  id: "js.neutralino.extension1",
+  command: "python {NL_PATH}/extensions/ext1.py"
+ }
+]
+```
+
+- neu CLI behavior for extensions.
+
+`neu build` will copy extensions dir to the bundle based on the following setting. `res.neu` won't include extensions.
+```
+"cli": {
+   "extensionsPath": "/extensions/"
+}
+```
 
 # Roadmap 2022
 
