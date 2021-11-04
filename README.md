@@ -100,11 +100,11 @@ await Neutralino.extensions.sendMessage(string extensionId, string message);
 - Which component initates extensions: Server process via C++ (Alternative way: via client).
 - Config extensions:
 
-```
+```js
 "extensions": [
  {
   id: "js.neutralino.extension1",
-  command: "python {NL_PATH}/extensions/ext1.py"
+  command: "python {NL_PATH}/extensions/ext1.py" // STDIN: all global variables
  }
 ]
 ```
