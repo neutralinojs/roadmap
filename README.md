@@ -96,10 +96,6 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 
 ```js
 await Neutralino.extensions.sendMessage(string extensionId, string message);
-
-// Client-based implementation via os.execCommand()
-// Calls extension with message
-// Extension can return immediate response or dispatch async events later.
 ```
 - Which component initates extensions: Server process via C++ (Alternative way: via client).
 - Config extensions:
