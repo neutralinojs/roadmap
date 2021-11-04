@@ -91,7 +91,7 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 
 ## Specs: API extensions
 
-- Extension to Neutralinojs process communication: WebSocket
+- Extension to/from Neutralinojs process communication: WebSocket
 - JavaScript API to invoke extension:
 
 ```js
