@@ -112,7 +112,7 @@ await Neutralino.extensions.sendMessage(string extensionId, string message);
 - neu CLI behavior for extensions.
 
 `neu build` will copy extensions dir to the bundle based on the following setting. `res.neu` won't include extensions.
-```
+```js
 "cli": {
    "extensionsPath": "/extensions/"
 }
