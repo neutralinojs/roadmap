@@ -95,16 +95,17 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - JavaScript API to invoke extension:
 
 ```js
-await Neutralino.extensions.sendMessage(string extensionId, string message);
+await Neutralino.extensions.dispatch(string extensionId, string event, string data);
 ```
-- Which component initates extensions: Server process via C++ (Alternative way: via client).
+- Which component initates extensions: Server process.
 - Config extensions:
 
 ```js
 "extensions": [
  {
   id: "js.neutralino.extension1",
-  command: "python {NL_PATH}/extensions/ext1.py" // STDIN: all global variables
+  command: "python {NL_PATH}/extensions/ext1.py" // Internal args: --nl-port={}, --nl-token={}
+  // commandLinux, commandDarwin, and commandWindows are also supported.
  }
 ]
 ```
