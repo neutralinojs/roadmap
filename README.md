@@ -6,7 +6,6 @@ The roadmap of Neutralinojs
 - Set exit code for `app.exit()` from JavaScript API. **(Done)**
 - Doing improvements to the window customization (via `neutralino.config.json`).
   * `minHeight`, `minWidth`, `maxWidth`, `maxHeight`, and `resizable` **(Done)**.
-  * Transparency level setting `opacity: number`.
   * `hidden: boolean` - A nice way to write background apps. **(Done)**
 - `enableHTTPServer: boolean` and `enableNativeAPI: boolean` Useful when setting a remote URL for the entry URL property. **(Done)**
 - Implement a way to change the path context via command line. Keep Neutralino binaries without renaming inside the `bin` directory.  **(Done)**
@@ -88,6 +87,7 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_RT_NATRTER` - Native method runtime error.
 - `NE_RT_NATNTIM` - Native method is not implemented.
 - `NE_CL_NSEROFF` - Neutralino server is not reachable.
+- `NE_EX_EXTNOTC` - Extension is not connected yet.
 
 ## Specs: API extensions
 
@@ -122,6 +122,7 @@ await Neutralino.extensions.dispatch(string extensionId, string event, string da
 # Roadmap 2022
 
 - Screen details API.
+- Transparency level setting `opacity: number` in the window setting section.
 
 - Depends on the community's feature requests and ideas. We'll post a blog post in December 2021 about plans.
 
