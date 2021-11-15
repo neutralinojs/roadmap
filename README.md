@@ -121,7 +121,7 @@ await Neutralino.extensions.dispatch(string extensionId, string event, string da
 
 ## Devops
 
-Release pre-built binaries for x64 Linux, macOS, and Windows via GitHub actions. If the developer needs binaries for other CPU archirectures, they have to build from source. Add build from source guide to docs.
+Release pre-built binaries for x64 Linux, macOS, and Windows via GitHub actions. If developers needs binaries for other CPU archirectures, they have to build from source. Add build from source guide to docs.
 
 `release.yml`: Build binaries, Add to zip, and place zip file in `bin/`. Commit the zip file automatically. But, the final release is manual.
 `build_and_test.yml`: Build binaries first. Execute integration test suite and run it with code changes.
