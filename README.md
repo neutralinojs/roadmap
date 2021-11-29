@@ -21,7 +21,7 @@ The roadmap of Neutralinojs
 - Performance improvements and optimizations.
 
 
-## Specs: API
+## Specs: API (Done)
 
 ### window
 
@@ -89,7 +89,7 @@ Format: `NE_<namespace_shortcode>_<error_in_seven_letters>`
 - `NE_CL_NSEROFF` - Neutralino server is not reachable.
 - `NE_EX_EXTNOTC` - Extension is not connected yet.
 
-## Specs: API extensions
+## Specs: API extensions (Done)
 
 - Extension to/from Neutralinojs process communication: WebSocket
 - JavaScript API to invoke extension:
