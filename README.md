@@ -119,7 +119,7 @@ await Neutralino.extensions.dispatch(string extensionId, string event, string da
 }
 ```
 
-## Devops
+## Devops (Done)
 
 Release pre-built binaries for x64 Linux, macOS, and Windows via GitHub actions. If developers needs binaries for other CPU archirectures, they have to build from source. Add build from source guide to docs.
 
