@@ -131,6 +131,6 @@ Release pre-built binaries for x64 Linux, macOS, and Windows via GitHub actions.
 - Screen details API.
 - Transparency level setting `opacity: number` in the window setting section.
 
-- Depends on the community's feature requests and ideas. We'll post a blog post in December 2021 about plans.
+We'll update this roadmap based on the community's feature requests and ideas and post a blog post in december 2021 about future plans.
 
 
