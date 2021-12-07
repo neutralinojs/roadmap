@@ -126,6 +126,27 @@ Release pre-built binaries for x64 Linux, macOS, and Windows via GitHub actions.
 - `create_release_zip.yml`: Build binaries, Add to zip, and place zip file in `bin/`. Commit the zip file automatically. But, the final release is manual. **(Done)**
 - `test_suite.yml`: Build binaries first. Execute integration test suite and run it with code changes.
 
+## Updator 
+
+Seed URL: `https://example.com/updateinfo` should return a JSON with the following structure.
+
+```js
+{
+ "applicationId": "<id>",
+ "version": "<version>",
+ "resourcesUrl": "<Direct donwloadable link to res.neu>",
+ "data": {
+  // extra info. Eg: What's new etc.
+ }
+}
+```
+
+### API functions
+
+- `updater.checkForUpdates(url)`: Check updates based on the provided seed URL.
+- `updater.applyUpdates(options)`: Download updates (`res.neu`) and replace existing resources. options `bool restart`
+
+
 # Roadmap 2022
 
 - Screen details API.
