@@ -134,7 +134,7 @@ Seed URL: `https://example.com/updateinfo` should return a JSON with the followi
 {
  "applicationId": "<id>",
  "version": "<version>",
- "resourcesUrl": "<Direct donwloadable link to res.neu>",
+ "resourcesUrl": "<Direct downloadable link to res.neu>",
  "data": {
   // extra info. Eg: What's new etc.
  }
