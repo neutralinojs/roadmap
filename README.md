@@ -144,7 +144,7 @@ Seed URL: `https://example.com/updateinfo` should return a JSON with the followi
 ### API functions
 
 - `updater.checkForUpdates(url)`: Check updates based on the provided seed URL.
-- `updater.applyUpdates(options)`: Download updates (`res.neu`) and replace existing resources. options `bool restart`
+- `updater.applyUpdates()`: Download updates (`res.neu`) and replace existing resources.
 
 
 # Roadmap 2022
