@@ -126,7 +126,7 @@ Release pre-built binaries for x64 Linux, macOS, and Windows via GitHub actions.
 - `create_release_zip.yml`: Build binaries, Add to zip, and place zip file in `bin/`. Commit the zip file automatically. But, the final release is manual. **(Done)**
 - `test_suite.yml`: Build binaries first. Execute integration test suite and run it with code changes.
 
-## Updator 
+## Updator (Done)
 
 Seed URL: `https://example.com/updateinfo` should return a JSON with the following structure.
 
