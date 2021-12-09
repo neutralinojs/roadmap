@@ -2,6 +2,7 @@
 
 - Screen details API.
 - Transparency level setting `opacity: number` in the window setting section.
+- Global keyboard shortcuts API.
 
 ## Archived roadmaps
 
