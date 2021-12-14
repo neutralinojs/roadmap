@@ -6,6 +6,7 @@
 - Get window title via `window.getTitle`.
 - Get window size via `window.getSize`. Output the same structure returned with `window.setSize`.
 - Get window position via `window.getPosition`.
+- `windowBlur` and `windowFocus` native events.
 
 ## Archived roadmaps
 
