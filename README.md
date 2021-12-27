@@ -7,6 +7,7 @@
 - Get window size via `window.getSize`. Output the same structure returned with `window.setSize`.
 - Get window position via `window.getPosition`.
 - `windowBlur` and `windowFocus` native events.
+- Chrome mode **(Done)**
 
 ## Archived roadmaps
 
