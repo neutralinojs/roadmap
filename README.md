@@ -8,6 +8,7 @@
 - Get window position via `window.getPosition`.
 - `windowBlur` and `windowFocus` native events.
 - Chrome mode **(Done)**
+- Clipboard API **(Done)**
 
 ## Archived roadmaps
 
