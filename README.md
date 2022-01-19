@@ -11,6 +11,15 @@
 - Clipboard API **(Done)**
 - Support frontend-framework-based hot reloading **(Done)**.
 - Set headers for the HTTP responses (static server) and Websocket handshake. This feature is helpful to enable CORS **(Done)**. 
+- Set startup window position for the window mode.
+
+```
+"x": 100,
+"y": 100
+```
+```
+"center": true
+```
 
 ## Archived roadmaps
 
