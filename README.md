@@ -10,7 +10,7 @@
 - Chrome mode **(Done)**
 - Clipboard API **(Done)**
 - Support frontend-framework-based hot reloading **(Done)**.
-- Set headers for the HTTP responses (static server) and Websocket handshake. This feature is helpful to enable CORS. 
+- Set headers for the HTTP responses (static server) and Websocket handshake. This feature is helpful to enable CORS **(Done)**. 
 
 ## Archived roadmaps
 
