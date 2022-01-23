@@ -1,16 +1,21 @@
 # Roadmap 2022
 
+## Native APIs
+
 - Screen details API.
-- Transparency level setting `opacity: number` in the window setting section.
 - Global keyboard shortcuts API.
 - Get window title via `window.getTitle` **(Done)**.
 - Get window size via `window.getSize`. Output the same structure returned with `window.setSize`.
 - Get window position via `window.getPosition`.
-- `windowBlur` and `windowFocus` native events.
-- Chrome mode **(Done)**
 - Clipboard API **(Done)**
-- Support frontend-framework-based hot reloading **(Done)**.
-- Set headers for the HTTP responses (static server) and Websocket handshake. This feature is helpful to enable CORS **(Done)**. 
+
+## Events
+
+- `windowBlur` and `windowFocus` native events.
+
+
+## Configuration
+
 - Set startup window position for the window mode.
 
 ```
@@ -20,6 +25,13 @@
 ```
 "center": true
 ```
+- Set headers for the HTTP responses (static server) and Websocket handshake. This feature is helpful to enable CORS **(Done)**. 
+- Chrome mode **(Done)**
+- Transparency level setting `opacity: number` in the window configuration section.
+
+## Developer Environment
+
+- Support frontend-framework-based hot reloading **(Done)**.
 
 ## Archived roadmaps
 
