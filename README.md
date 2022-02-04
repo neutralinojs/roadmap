@@ -5,7 +5,8 @@
 - Screen details API.
 - Global keyboard shortcuts API.
 - Get window title via `window.getTitle` **(Done)**.
-- Get window size via `window.getSize`. Output the same structure returned with `window.setSize`.
+- Get window size via `window.getSize`. Output the same structure returned with `window.setSize` **(Done)**.
+- Set on top mode during the runtime via `window.setAlwaysOnTop(bool)` **(Done)**.
 - Get window position via `window.getPosition`.
 - Clipboard API **(Done)**
 
