@@ -9,6 +9,7 @@
 - Set on top mode during the runtime via `window.setAlwaysOnTop(bool)` **(Done)**.
 - Get window position via `window.getPosition`.
 - Clipboard API **(Done)**
+- `os.spawnProcess` for realtime process input and output.
 
 ## Events
 
