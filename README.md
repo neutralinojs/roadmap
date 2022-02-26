@@ -7,7 +7,7 @@
 - Get window title via `window.getTitle` **(Done)**.
 - Get window size via `window.getSize`. Output the same structure returned with `window.setSize` **(Done)**.
 - Set on top mode during the runtime via `window.setAlwaysOnTop(bool)` **(Done)**.
-- Get window position via `window.getPosition`.
+- Get window position via `window.getPosition`. **(Done)**
 - Clipboard API **(Done)**
 - `os.spawnProcess` for realtime process input and output.
 - `filesystem.appendFile` and `filesystem.appendBinaryFile`.
