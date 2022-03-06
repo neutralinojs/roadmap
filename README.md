@@ -10,7 +10,7 @@
 - Get window position via `window.getPosition`. **(Done)**
 - Clipboard API **(Done)**
 - `os.spawnProcess` for realtime process input and output.
-- `filesystem.appendFile` and `filesystem.appendBinaryFile`.
+- `filesystem.appendFile` and `filesystem.appendBinaryFile`. **(Done)**
 
 ## Events
 
