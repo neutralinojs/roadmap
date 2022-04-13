@@ -14,7 +14,7 @@
 
 ## Events
 
-- `windowBlur` and `windowFocus` native events.
+- `windowBlur` and `windowFocus` native events. **(Done)**
 
 
 ## Configuration
