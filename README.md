@@ -11,6 +11,7 @@
 - Clipboard API **(Done)**
 - `os.spawnProcess` for realtime process input and output.
 - `filesystem.appendFile` and `filesystem.appendBinaryFile`. **(Done)**
+- `filesystem.spawnWatcher` for realtime file events.
 
 ## Events
 
