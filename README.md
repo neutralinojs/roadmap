@@ -9,7 +9,7 @@
 - Set on top mode during the runtime via `window.setAlwaysOnTop(bool)` **(Done)**.
 - Get window position via `window.getPosition`. **(Done)**
 - Clipboard API **(Done)**
-- `os.spawnProcess` for realtime process input and output.
+- `os.spawnProcess` for realtime process input and output. **(Done)**
 - `filesystem.appendFile` and `filesystem.appendBinaryFile`. **(Done)**
 - `filesystem.spawnWatcher` for realtime file events.
 
