@@ -17,6 +17,9 @@
 
 - `windowBlur` and `windowFocus` native events. **(Done)**
 
+## Global variables
+
+- `NL_ARCH`: The framework binary's CPU architecture. Similar to Node.js' `os.arch()` function.
 
 ## Configuration
 
