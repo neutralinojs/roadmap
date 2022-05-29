@@ -19,7 +19,7 @@
 
 ## Global variables
 
-- `NL_ARCH`: The framework binary's CPU architecture. Similar to Node.js' `os.arch()` function.
+- `NL_ARCH`: The framework binary's CPU architecture. Similar to Node.js's `os.arch()` function.
 
 ## Configuration
 
