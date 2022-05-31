@@ -12,14 +12,11 @@
 - `os.spawnProcess` for realtime process input and output. **(Done)**
 - `filesystem.appendFile` and `filesystem.appendBinaryFile`. **(Done)**
 - `filesystem.spawnWatcher` for realtime file events.
+- `computer.arch()` to get the user computer's processor architecture.
 
 ## Events
 
 - `windowBlur` and `windowFocus` native events. **(Done)**
-
-## Global variables
-
-- `NL_ARCH`: The framework binary's CPU architecture. Similar to Node.js's `os.arch()` function.
 
 ## Configuration
 
