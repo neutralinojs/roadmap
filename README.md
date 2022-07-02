@@ -12,7 +12,7 @@
 - `os.spawnProcess` for realtime process input and output. **(Done)**
 - `filesystem.appendFile` and `filesystem.appendBinaryFile`. **(Done)**
 - `filesystem.spawnWatcher` for realtime file events.
-- `computer.arch()` to get the user computer's processor architecture.
+- `computer.getArch()` to get the user computer's processor architecture.
 
 ## Events
 
