@@ -2,7 +2,7 @@
 
 ## Native APIs
 
-- Screen details API.
+- Screen details API **(Done)**.
 - Global keyboard shortcuts API.
 - Get window title via `window.getTitle` **(Done)**.
 - Get window size via `window.getSize`. Output the same structure returned with `window.setSize` **(Done)**.
