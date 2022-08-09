@@ -17,7 +17,7 @@
 - `computer.getOSInfo` to get the user computer's OS details. **(Done)**
 - `computer.getCPUInfo` to get the user computer's CPU details. **(Done)**
 - `computer.getDisplays` to get the user computer's available displays. **(Done)**
-- `os.getEnvs` to get all environment variable details.
+- `os.getEnvs` to get all environment variable details. **(Done)**
 
 ## Events
 
