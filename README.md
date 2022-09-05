@@ -18,6 +18,7 @@
 - `computer.getCPUInfo` to get the user computer's CPU details. **(Done)**
 - `computer.getDisplays` to get the user computer's available displays. **(Done)**
 - `os.getEnvs` to get all environment variable details. **(Done)**
+- `storage.getKeys` to get all storage keys as a JavaScript array object **(Done)**
 
 ## Events
 
