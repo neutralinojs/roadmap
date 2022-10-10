@@ -19,6 +19,7 @@
 - `computer.getDisplays` to get the user computer's available displays. **(Done)**
 - `os.getEnvs` to get all environment variable details. **(Done)**
 - `storage.getKeys` to get all storage keys as a JavaScript array object **(Done)**
+- `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
 
 ## Adding custom APIs
 
