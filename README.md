@@ -20,6 +20,30 @@
 - `os.getEnvs` to get all environment variable details. **(Done)**
 - `storage.getKeys` to get all storage keys as a JavaScript array object **(Done)**
 
+## Adding custom APIs
+
+Neutralinojs offers the extensions API to write custom backend code with any programming language, but extensions come with the following drawbacks that affect apps in several scenarios:
+
+- Extensions use a shared WebSocket for communication, so using direct C++ references (i.e., the window handler) is impossible within extensions.
+- The developer is responsible for packaging their extension binaries.
+- A C++-based extension is not fast as native C++-based code due to the WebSockets-based IPC.
+
+Alternatively, a developer can download the framework C++ code, modify it, and re-compile it. But, the developer may face issues while synching upstream code modifications. So, Neutralinojs offers a separate namespace, a function template, inbuilt helper functions (i.e., to get the window handler), and a developer guide to add custom APIs to the Neutralinojs framework without updating the framework core.
+
+Example:
+
+```js
+let res = await Neutralino.custom.fetch('https://neutralino.js.org');
+```
+
+If developers make a custom API that others can use, we motivate them to contribute to the Neutralinojs framework by adding it to the main codebase.
+
+Example:
+
+```js
+let res = await Neutralino.net.fetch('https://neutralino.js.org');
+```
+
 ## Events
 
 - `windowBlur` and `windowFocus` native events. **(Done)**
