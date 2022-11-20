@@ -44,6 +44,25 @@ Example:
 ```js
 let res = await Neutralino.net.fetch('https://neutralino.js.org');
 ```
+## File streams
+
+The current Neutralinojs API offers non-stream-based (Promise-based but synchronous-like) functions for working with files. For example, the `filesystem.readFile` function reads the file content and retrieves data synchronously even though the WebSocket communication mechanism supports asynchronous patterns. However, the synchronous API lets developers work with files in a simple way, but they face the following issues in some scenarios:
+
+- Reading large files is not performance-friendly (The whole file content gets loaded into the memory).
+- Unable to work with dynamic file objects (i.e., Device files).
+- File descriptors are not persistent within the app lifecycle as they get destroyed after native API calls.
+
+To solve this issue, we offer an event-based file stream API with the following functions/events:
+
+### Functions
+
+- `filesystem.openFile`: Creates a file stream by openning a file.
+- `filesystem.updateOpenedFile`: Triggers a file `read`/`readAll` event or sets the file cursor.
+- `filesystem.getOpenedFileInfo`: Returns (awaited) information about the file stream (Props: `id`, `eof`, `pos`, and `lastRead`)
+
+### Events
+
+- `openedFile`: Occurs per each file read event and whenever the file stream reaches `EOF`.
 
 ## Events
 
