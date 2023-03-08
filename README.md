@@ -11,7 +11,7 @@
 - Clipboard API **(Done)**
 - `os.spawnProcess` for realtime process input and output. **(Done)**
 - `filesystem.appendFile` and `filesystem.appendBinaryFile`. **(Done)**
-- `filesystem.spawnWatcher` for realtime file events.
+- `filesystem.createWatcher` and `filesystem.removeWatcher` for realtime file events **(Done)**.
 - `computer.getArch` to get the user computer's processor architecture. **(Done)**
 - `computer.getKernelInfo` to get the user computer's OS kernel details. **(Done)**
 - `computer.getOSInfo` to get the user computer's OS details. **(Done)**
