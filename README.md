@@ -7,12 +7,13 @@
 
 ## Configuration
 
-- Set startup window position for the window mode.
+- Set startup window position for the window mode. **(Done)**
 
 ```
 "x": 100,
 "y": 100
 ```
+- Centering the initial window position.
 ```
 "center": true
 ```
