@@ -13,7 +13,7 @@
 "x": 100,
 "y": 100
 ```
-- Centering the initial window position.
+- Centering the initial window position. **(Done)**
 ```
 "center": true
 ```
