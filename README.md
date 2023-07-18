@@ -19,6 +19,9 @@
 ```
 - Transparency setting `transparency: bool` in the window configuration section (Developers can control the opacity level with CSS opacity settings).
 
+## Core
+- Save and load the primary window state using a temporary file. **(Done)**
+
 ## Archived roadmaps
 
 - [2021](archive/2021.md)
