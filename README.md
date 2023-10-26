@@ -4,7 +4,8 @@
 
 - Global keyboard shortcuts API.
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
-- `Neutralino.filesystem.getWatchers` to get spawned watcher details. It'll return an array of `{id, path}` objects.
+- `Neutralino.filesystem.getWatchers` to get spawned watcher details. It'll return an array of `{id, path}` objects. **(Done)**
+- Binary file read support for `filesystem.openFile`. **(Done)**
 
 ## Configuration
 
