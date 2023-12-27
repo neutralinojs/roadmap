@@ -8,6 +8,12 @@
 ## Configuration
 
 - Transparency setting `transparency: bool` in the window configuration section (Developers can control the opacity level with CSS opacity settings).
+
+## Documentation
+
+- Application distribution guidelines with the [Neutralinojs build scripts community project](https://github.com/hschneider/neutralino-build-scripts), see [this reference](https://github.com/neutralinojs/neutralinojs/issues/1152#issuecomment-1859653388).
+- A page with Neutralinojs community tools, learning resources, and templates.
+- Update the sample apps page with new community apps.
   
 ## Archived roadmaps
 
