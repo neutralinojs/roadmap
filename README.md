@@ -4,6 +4,7 @@
 
 - Global keyboard shortcuts API.
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
+- Introduce an event system for multi-window communication.
 
 ## Configuration
 
