@@ -8,7 +8,7 @@
 
 ## Configuration
 
-- Transparency setting `transparency: bool` in the window configuration section (Developers can control the opacity level with CSS opacity settings).
+- Make the native window background transparent by default(Developers can control the opacity level with CSS using `rgba` color function).
 
 ## Documentation
 
