@@ -8,7 +8,7 @@
 
 ## Configuration
 
-- Make the native window background transparent by default(Developers can control the opacity level with CSS using `rgba` color function).
+- Make the native window background transparent by default (Developers can control the opacity level with CSS using `rgba` color function).
 
 ## Documentation
 
