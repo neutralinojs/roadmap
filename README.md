@@ -9,6 +9,11 @@
 ## Configuration
 
 - Add `window.transparent` boolean config property (default is `false`) to enable window transparency (Developers can control the opacity level with CSS using `rgba` color function).
+- Configless framework initialization. **(Done)**
+
+## Static server
+
+- Single Page App (SPA) serving support can be acticated using the `singlePageServe` boolean configuration option. **(Done)**
 
 ## Documentation
 
