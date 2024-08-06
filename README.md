@@ -7,6 +7,10 @@
 - Introduce an event system for multi-window communication.
 - Add new functions `resources.getFiles()`, `resources.readFile(path)`, `resources.readBinaryFile(path)`, and `resources.extractFile(path)` to let developers parse the `resources.neu` file.
 
+## Extensions
+
+- Introduce a way to debug extensions on Windows by displaying stdin/stderr on the terminal.
+
 ## Configuration
 
 - Add `window.transparent` boolean config property (default is `false`) to enable window transparency (Developers can control the opacity level with CSS using `rgba` color function).
