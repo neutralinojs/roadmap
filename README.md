@@ -9,7 +9,7 @@
 
 ## Extensions
 
-- Introduce a way to debug extensions on Windows by displaying stdin/stderr on the terminal.
+- Introduce a way to debug extensions on Windows by displaying stdout/stderr on the terminal.
 
 ## Configuration
 
