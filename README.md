@@ -5,7 +5,7 @@
 - Global keyboard shortcuts API.
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
 - Introduce an event system for multi-window communication.
-- Add new functions `resources.getFiles()`, `resources.readFile(path)`, `resources.readBinaryFile(path)`, and `resources.extractFile(path)` to let developers parse the `resources.neu` file.
+- Add new functions `resources.getFiles()`, `resources.readFile(path)`, `resources.readBinaryFile(path)`, and `resources.extractFile(path, destination)` to let developers parse the `resources.neu` file.
 
 ## Extensions
 
