@@ -14,7 +14,7 @@
 
 ## Configuration
 
-- Add `window.transparent` boolean config property (default is `false`) to enable window transparency (Developers can control the opacity level with CSS using `rgba` color function).
+- Add `window.transparent` boolean config property (default is `false`) to enable window transparency (Developers can control the opacity level with CSS using `rgba` color function). **(Done)**
 - Configless framework initialization. **(Done)**
 
 ## Static server
