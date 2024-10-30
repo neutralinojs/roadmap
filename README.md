@@ -4,6 +4,7 @@
 
 - Global keyboard shortcuts API.
 - New window events.
+- Add a way to inject custom script into remote URLs on the window mode.
 - Consider `storageLocation` while creating app-specific files within the app directory.
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
 - Introduce an event system for multi-window communication.
