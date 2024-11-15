@@ -5,7 +5,7 @@
 - Global keyboard shortcuts API.
 - New window events.
 - Add a way to inject custom script into remote URLs on the window mode. **(Done)**
-- Consider `storageLocation` while creating app-specific files within the app directory.
+- Consider `storageLocation`-like implementation while creating app-specific files within the app directory. **(Done)**
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
 - Introduce an event system for multi-window communication.
 - Add new functions `resources.getFiles()`, `resources.readFile(path)`, `resources.readBinaryFile(path)`, and `resources.extractFile(path, destination)` to let developers parse the `resources.neu` file. **(Done)**
