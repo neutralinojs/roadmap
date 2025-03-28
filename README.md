@@ -6,6 +6,7 @@
 - New window events.
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
 - Introduce an event system for multi-window communication.
+- File permission API **(Done)**
 
 ## Extensions
 
