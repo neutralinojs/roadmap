@@ -7,7 +7,7 @@
 - `Neutralino.net` for networking APIs. i.e., `Neutralino.net.fetch`
 - Introduce an event system for multi-window communication.
 - File permission API **(Done)**
-- Native window menu API (`window.setMainMenu(obj)` function and `mainMenuItemClicked` event)
+- Native window menu API (`window.setMainMenu(obj)` function and `mainMenuItemClicked` event) **(Done)**
 
 ## Extensions
 
